@@ -1,0 +1,40 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #F1A17E;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    color: #9e2f00;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: #A53E12;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+background-color: #e65314;
+}
+/* 
+.btn-edits{
+    background-color: #A53E12;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */

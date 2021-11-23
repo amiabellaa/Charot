@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #F7C9B6;
+
+}
+
+.header p {
+    float: left;
+    color: #A53E12;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px ;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+.header p.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #A53E12;
+}
+
+.header p:hover{
+    background-color: #F1A17E;
+    color: #FDF2ED;
+}
+
+.header p.active{
+    background-color: #A53E12;
+    color: white;
+}
+
+.header-right{
+    float: right;
+}
+
+@media screen and (max-widthz: 500px){
+    .header p{
+        float: none;
+        width: 100%;
+display: flex;
+text-align: left;
+    }
+    
+    .header-right{
+        float: none;
+    }
+}
